@@ -8,7 +8,7 @@ export default function ImageHolder() {
   return (
     <ImageHolderStyles>
       <img className="product" src={activeImage} alt={data.title} />
-      );
+      
       <div className="icons">
         {data.img.map((image, index) => (
           <img
